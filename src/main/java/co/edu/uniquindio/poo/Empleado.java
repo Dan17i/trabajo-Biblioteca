@@ -1,6 +1,8 @@
 package co.edu.uniquindio.poo;
     /**
-    * autores: Salomé Pérez, Samuel Castaño, Daniel Jurado
+    *@author: Samuel Castaño
+    *@author: Daniel Jurado
+    *@author: Salomé Pérez
     * La clase Empleado representa a un empleado en el sistema y hereda de la clase Persona.
     */
 public class Empleado extends Persona{
@@ -37,6 +39,16 @@ public class Empleado extends Persona{
      */
     public void setCargo(String cargo) {
         this.cargo = cargo;
+    }
+
+ //------------------------------------------------------------------------------------------------------------------
+    /**
+     * Método que sirve para actualizar un empleado 
+     * @param empleado
+     * @return el empleado ya actualizado 
+     */
+    public Empleado actualizarEmpleado(Empleado empleado){
+        return null;
     }
 
 }

@@ -1,6 +1,8 @@
 package co.edu.uniquindio.poo;
     /**
-    *autores: Salomé Pérez, Samuel Castaño, Daniel Jurado
+    *@author: Samuel Castaño
+    *@author: Daniel Jurado
+    *@author: Salomé Pérez
     * La clase Estudiante representa a un estudiante en el sistema y hereda de la clase Persona.
     */
 public class Estudiante extends Persona {
@@ -37,6 +39,17 @@ public class Estudiante extends Persona {
      */
     public void setPrograma(String programa) {
         this.programa = programa;
+    }
+
+//---------------------------------------------------------------------------------------------------------------
+    /**
+    * Método que sirve para actualizar un Estudiante 
+    *@param estudiante
+    *@return el estudiante actualizado
+    */
+    public Estudiante actualizarEstudiante (Estudiante estudiante){
+        //TODO
+    return null;
     }
 
     

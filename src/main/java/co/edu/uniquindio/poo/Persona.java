@@ -1,6 +1,8 @@
 package co.edu.uniquindio.poo;
 /**
- * autores: Salomé Pérez, Samuel Castaño, Daniel Jurado
+ *@author: Samuel Castaño
+ *@author: Daniel Jurado
+ *@author: Salomé Pérez
  * La clase Persona representa una clase PADRE, de la clase Empleado y Estudiante(Herencia)
  */
 public class Persona {
@@ -112,6 +114,26 @@ public class Persona {
      */
     public void setDireccion(String direccion) {
         this.direccion = direccion;
+    }
+
+//---------------------------------------------------------------------------------------------------------------
+
+    /**
+     * Método que trata de buscar Personas según su identificación
+     * @param id (identificación de la persona, sea estudiante o empleado)
+     * @return la persona encontrada
+    */
+    public Persona buscarPersona(String id){
+        //TODO
+        return null ;
+    }
+
+    /**
+     * Metodo para eliminar la persona que será buscada por su identificación
+     * @param id (identificación de la persona, sea estudiante o empleado)
+     */
+    public void eliminarPersona(String id){
+        //TODO
     }
 
     

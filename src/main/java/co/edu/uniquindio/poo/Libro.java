@@ -1,6 +1,8 @@
 package co.edu.uniquindio.poo;
     /**
-     * autores: Salomé Pérez, Samuel Castaño, Daniel Jurado
+    *@author: Samuel Castaño
+    *@author: Daniel Jurado
+    *@author: Salomé Pérez
     * La clase Libro representa a un Libro en el sistema de Biblioteca.
     */
 public class Libro {
@@ -92,6 +94,35 @@ public class Libro {
      */
     public void setAutor(String autor) {
         this.autor = autor;
+    }
+
+//----------------------------------------------------------------------------------------------------------------
+
+    /**
+     * Método que sirva para eliminar un libro
+     * @param libro (el libro a eliminar)
+     */
+    public void eliminarLibro(Libro libro) {
+        // TODO
+    }
+
+    /**
+     * Método que sirve para actualizar la información de un libro en la biblioteca
+     * @param libro (el libro desactualizado)
+     * @return el libro ya actualizado
+     */
+    public Libro actualizarLibro(Libro libro){
+        //TODO
+        return null;
+        }
+    /**
+     * Método que sirve para buscar un ISBN de un libro de la biblioteca
+     * @param iSBN
+     * @return el ISBN encontrado
+     */
+    public Libro buscarIsbn (String iSBN){
+        //TODO
+        return null;
     }
     
 }
