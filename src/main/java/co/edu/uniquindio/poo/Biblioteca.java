@@ -32,7 +32,7 @@ public class Biblioteca {
      */
     public ArrayList<Persona> getListaPersonas() {
         return listaPersonas;
-    }[]
+    }
 
     /**
      * Estalece la lista de personas en la Biblioteca
